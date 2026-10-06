@@ -1,0 +1,32 @@
+[
+    {
+        "question": "What is Artificial Intelligence?",
+        "options": {
+            "A": "Technology that enables machines to perform intelligent tasks",
+            "B": "A computer keyboard",
+            "C": "A database",
+            "D": "A web browser"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which programming language is commonly used for AI?",
+        "options": {
+            "A": "HTML",
+            "B": "Python",
+            "C": "CSS",
+            "D": "SQL"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "What does CPU stand for?",
+        "options": {
+            "A": "Central Processing Unit",
+            "B": "Computer Personal Unit",
+            "C": "Central Program Utility",
+            "D": "Computer Processing User"
+        },
+        "answer": "A"
+    }
+]

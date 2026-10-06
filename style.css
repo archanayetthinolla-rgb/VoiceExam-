@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            135deg,
+            #24104f,
+            #351b73,
+            #173c75,
+            #0b6477
+        );
+
+    color: white;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+
+    padding: 35px 0;
+}
+
+.logo {
+    font-size: 55px;
+
+    margin-right: 18px;
+}
+
+header h1 {
+    font-size: 42px;
+}
+
+header p {
+    color: #d9d9ff;
+    margin-top: 5px;
+}
+
+
+/* MAIN */
+
+main {
+    text-align: center;
+}
+
+
+/* WELCOME CARD */
+
+.welcome-card {
+
+    max-width: 650px;
+
+    margin: 30px auto;
+
+    padding: 45px;
+
+    border-radius: 25px;
+
+    background: rgba(255, 255, 255, 0.12);
+
+    backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+
+.mic-circle {
+
+    width: 110px;
+    height: 110px;
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    background: linear-gradient(
+        135deg,
+        #ff4ecd,
+        #7c4dff,
+        #20d9ff
+    );
+
+    font-size: 50px;
+
+    box-shadow:
+        0 0 35px rgba(100, 80, 255, 0.7);
+}
+
+
+.welcome-card h2 {
+
+    margin-top: 25px;
+
+    font-size: 30px;
+}
+
+
+.welcome-card p {
+
+    margin-top: 15px;
+
+    line-height: 1.6;
+
+    color: #eeeeff;
+}
+
+
+/* STATUS */
+
+.status {
+
+    margin: 25px auto;
+
+    padding: 12px;
+
+    width: 220px;
+
+    border-radius: 20px;
+
+    background: rgba(0, 255, 170, 0.15);
+
+    color: #8affd1;
+}
+
+
+/* BUTTON */
+
+button {
+
+    border: none;
+
+    padding: 16px 30px;
+
+    border-radius: 30px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    color: white;
+
+    cursor: pointer;
+
+    background:
+        linear-gradient(
+            90deg,
+            #ff4ecd,
+            #7c4dff,
+            #20d9ff
+        );
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.3);
+
+    transition: 0.3s;
+}
+
+
+button:hover {
+
+    transform: scale(1.05);
+
+}
+
+
+/* FEATURES */
+
+.features {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+
+    margin-top: 30px;
+}
+
+
+.feature-card {
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.1);
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    font-size: 35px;
+}
+
+
+.feature-card h3 {
+
+    font-size: 20px;
+
+    margin: 12px 0;
+}
+
+
+.feature-card p {
+
+    font-size: 14px;
+
+    color: #ddddff;
+}
+
+
+/* FOOTER */
+
+footer {
+
+    text-align: center;
+
+    margin: 40px 0;
+
+    color: #cfcfff;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .features {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    header h1 {
+
+        font-size: 32px;
+
+    }
+
+    .welcome-card {
+
+        padding: 30px 20px;
+
+    }
+}
